@@ -1,12 +1,12 @@
 const readlineSync = require("readline-sync");
 function average(arr) {
-  console.log((arr.reduce(getTotal))/arr.length);
+  return (arr.reduce(getTotal))/arr.length;
 }
 function min(arr) {
-  console.log(Math.min.apply(null, arr));
+  return Math.min.apply(null, arr);
 }
 function max(arr) {
-  console.log(Math.max.apply(null, arr));
+  return Math.max.apply(null, arr);
 }
 function getTotal(total,numb) {
   return total+numb;

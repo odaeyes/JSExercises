@@ -1,5 +1,5 @@
 function rand10(a,b){
-  return Math.floor(Math.random()*(b-a)+a);
+  return Math.floor((Math.random()*(b-a))+a);
 }
 rand10(1,10);
 let numbArray= [];
